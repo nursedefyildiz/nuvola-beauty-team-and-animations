@@ -1,4 +1,4 @@
-/* --- 1. GENEL AYARLAR & SIFIRLAMA --- */
+/* --- 1. GENEL AYARLAR--- */
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* --- 2. NAVBAR (NAVİGASYON ÇUBUĞU) --- */
+/* --- 2. NAVBAR--- */
 .navbar {
     display: flex; 
     justify-content: space-between; /* Logo ve menü linklerini iki uca yaslar */
@@ -50,7 +50,7 @@ body {
     color: #f06292;
 }
 
-/* --- 3. HERO BANNER (ANA GİRİŞ ALANI) --- */
+/* --- 3.ANA GİRİŞ ALANI --- */
 .hero, .hero-banner {
     display: flex;
     flex-direction: column; /* Yazıları alt alta dizer */
@@ -63,7 +63,7 @@ body {
 
     background-image: url('img/hero.jpg');
     background-size: cover; /* Resmi alanı tamamen kaplayacak şekilde ölçekler */
-    background-position: center; /* Resmi merkeze odaklar */
+    background-position: center; 
     background-repeat: no-repeat;
 }
 
@@ -78,7 +78,7 @@ body {
     color: #5d4037;
 }
 
-/* --- 4. EKİP SAYFASI DÜZENİ (TEAM WRAPPER) --- */
+/* --- 4. EKİP SAYFASI DÜZENİ  --- */
 .team-wrapper {
     max-width: 1200px;
     margin: 60px auto; /* Üstten 60px boşluk bırakarak Hero'dan ayırır */
